@@ -8,9 +8,13 @@
       <title>Fortune Teller</title>
     </head>
     <body class="container">
-      <h2>Welcome to....</h2>
-      <h1>Fortune Telling</h1>
+      <h2 class="hidden">Welcome to....</h2>
+      <h1 class="hidden">Fortune Telling</h1>
       <form id="portents">
+        <div id="nameQ">
+          <h4>What is your name?</h4>
+          <input type="text" name="name" id="name">
+        </div>
         <div id="omens">
           <h4>In the past year, have you experienced any of these omens?</h4>
           <input type="checkbox" name="omens" value="hot-food">Burning yout tongue on hot food.<br>
@@ -35,7 +39,7 @@
         <div class="answer" id="answer3">
           <p>You succeed at Epicodus, land a sweet internship, quickly get a promising job, and develop an amazing career. Then you awaken from your coma, realize it was all a dream, and shortly after, die.</p>
         </div>
-        <button type="button" name="button">How will I die?</button>
+        <button type="button" name="button" id="death">How will I die?</button>
       </div>
 
       <div id="deaths">
