@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/styles.css" type="text/css">
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+      <script src="js/scripts.js"></script>
+      <title>Fortune Teller</title>
+    </head>
+    <body class="container">
+      <h2>Welcome to....</h2>
+      <h1>Fortune Telling</h1>
+      <form id="portents">
+        <div id="omens">
+          <h4>In the past year, have you experienced any of these omens?</h4>
+          <input type="checkbox" name="omens" value="hot-food">Burning yout tongue on hot food.<br>
+          <input type="checkbox" name="omens" value="black-dog">Seen a black dog cross in front of you.<br>
+          <input type="checkbox" name="omens" value="no-umbrella">Been in the rain without an umbrella.<br>
+          <input type="checkbox" name="omens" value="spilled-seasoning">Accidentally spilled salt, or any other seasoning<br>
+          <input type="checkbox" name="omens" value="awkward">Made awkward eye contact.<br>
+          <input type="checkbox" name="omens" value="avacado">Let your avacado get too ripe.<br>
+        </div>
+        <button type="submit" name="button">Tell me my future</button>
+      </form>
+
+      <div id="answers">
+        <div class="answer" id="answer1">
+          <p>Your lucky numbers are 2, 84, 34, 12, 5. You die in 3 days. Good luck!</p>
+        </div>
+
+        <div class="answer" id="answer2">
+          <p>You will meet the love of your life! Like Romeo and Juliet, you both die.</p>
+        </div>
+
+        <div class="answer" id="answer3">
+          <p>You succeed at Epicodus, land a sweet internship, quickly get a promising job, and develop an amazing career. Then you awaken from your coma, realize it was all a dream, and shortly after, die.</p>
+        </div>
+        <button type="button" name="button">How will I die?</button>
+      </div>
+
+      <div id="deaths">
+        <div class="death" id="volcano">
+          <h2>Volcanic eruption</h2>
+        </div>
+        <div class="death" id="geckos">
+          <h2>Trampled by geckos</h2>
+        </div>
+        <div class="death" id="brain-explosion">
+          <h2>Overload of coding at Epicodus. Spontaneous combustion</h2>
+        </div>
+      </div>
+    </body>
+  </html>
